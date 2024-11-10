@@ -1,0 +1,46 @@
+
+[
+    {
+        "key": "ctrl+h",
+        "command": "cursorMove",
+        "args": {
+          "to": "left"
+        },
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+j",
+        "command": "cursorMove",
+        "args": {
+          "to": "down"
+        },
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+k",
+        "command": "cursorMove",
+        "args": {
+          "to": "up"
+        },
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "ctrl+l",
+        "command": "cursorMove",
+        "args": {
+          "to": "right"
+        },
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "alt+e",
+        "command": "workbench.view.explorer",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "alt+f",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "explorerViewletVisible"
+      }
+      
+]
