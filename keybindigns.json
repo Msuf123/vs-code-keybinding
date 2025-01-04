@@ -1,51 +1,56 @@
 
 [
-  {
-      "key": "ctrl+h",
-      "command": "cursorMove",
-      "args": {
-        "to": "left"
+    {
+        "key": "ctrl+h",
+        "command": "cursorMove",
+        "args": {
+          "to": "left"
+        },
+        "when": "editorTextFocus"
       },
-      "when": "editorTextFocus"
-    },
-    {
-      "key": "ctrl+j",
-      "command": "cursorMove",
-      "args": {
-        "to": "down"
+      {
+        "key": "ctrl+j",
+        "command": "cursorMove",
+        "args": {
+          "to": "down"
+        },
+        "when": "editorTextFocus"
       },
-      "when": "editorTextFocus"
-    },
-    {
-      "key": "ctrl+k",
-      "command": "cursorMove",
-      "args": {
-        "to": "up"
+      {
+        "key": "ctrl+k",
+        "command": "cursorMove",
+        "args": {
+          "to": "up"
+        },
+        "when": "editorTextFocus"
       },
-      "when": "editorTextFocus"
-    },
-    {
-      "key": "ctrl+l",
-      "command": "cursorMove",
-      "args": {
-        "to": "right"
+      {
+        "key": "ctrl+l",
+        "command": "cursorMove",
+        "args": {
+          "to": "right"
+        },
+        "when": "editorTextFocus"
       },
-      "when": "editorTextFocus"
+      {
+        "key": "alt+e",
+        "command": "workbench.view.explorer",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "alt+f",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "explorerViewletVisible"
+      },{
+        "key": "ctrl+p",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "editorTextFocus"
     },
     {
-      "key": "alt+e",
-      "command": "workbench.view.explorer",
+      "key": "ctrl+[",
+      "command": "deleteLeft",
       "when": "editorTextFocus"
-    },
-    {
-      "key": "alt+f",
-      "command": "workbench.action.focusActiveEditorGroup",
-      "when": "explorerViewletVisible"
-    },{
-      "key": "ctrl+p",
-      "command": "workbench.action.closeActiveEditor",
-      "when": "editorTextFocus"
-  }
-  
+    }
     
+      
 ]
